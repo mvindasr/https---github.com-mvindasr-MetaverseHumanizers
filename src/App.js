@@ -42,7 +42,7 @@ class App extends Component {
           <div class="col-1 ms-5"></div>
           <div class="col-3 d-flex aligns-items-center justify-content-center ms-4">
             <SenseCard
-              photos={['https://i.imgur.com/jRVDeI8.jpg']}
+              photos={['https://i.ibb.co/yRKr4zF/beach.png']}
               productName='Temperatura'
               description='El usuario entra a un ambiente virtual con un incremento gradual en la temperatura'
               activated={lightOn}
@@ -51,7 +51,7 @@ class App extends Component {
           </div>
           <div class="col-3 d-flex aligns-items-center justify-content-center">
           <SenseCard
-              photos={['https://i.imgur.com/jRVDeI8.jpg']}
+              photos={['https://i.ibb.co/hmrYTYR/fire.png']}
               productName='Olfato'
               description='El usuario detecta que algo se está quemando en su oficina virtual'
               activated={smellOn}
@@ -61,7 +61,7 @@ class App extends Component {
           </div>
           <div class="col-3 d-flex aligns-items-center justify-content-center">
           <SenseCard
-              photos={['https://i.imgur.com/jRVDeI8.jpg']}
+              photos={['https://i.ibb.co/fMTKKMJ/driving.png']}
               productName='Aire'
               description='El usuario viaja en el metaverso en un auto con la ventana abierta'
               activated={windOn}
